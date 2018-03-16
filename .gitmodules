@@ -1,0 +1,3 @@
+[submodule "app/src/main/cpp/libIMEI"]
+	path = app/src/main/cpp/libIMEI
+	url = https://github.com/ReimuNotMoe/libIMEI

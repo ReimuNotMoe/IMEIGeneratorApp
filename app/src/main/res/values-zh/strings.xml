@@ -1,0 +1,13 @@
+<resources>
+    <string name="btn_generate">生成</string>
+    <string name="btn_clip">复制到剪贴板</string>
+    <string name="toast_cliped">已复制到剪贴板</string>
+    <string name="app_name">IMEI 生成器</string>
+    <string name="btn_about">关于</string>
+    <string name="btn_gotit">知道啦</string>
+    <string name="btn_github">Github 项目</string>
+    <string name="txt_about"><![CDATA[<p>IMEI 生成器 v0.1</p>
+<p>版权所有 © 2018 ReimuNotMoe</p>
+<br>
+<p>许可证: GPLv3</p>]]></string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.reimunotmoe.imeigenerator.MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/textbox_imei"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="monospace"
+            android:inputType="number"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="54dp" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="96dp"/>
+
+        <Button
+            android:id="@+id/button_generate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_generate"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="141dp" />
+
+        <Button
+            android:id="@+id/button_clip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_clip"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="183dp" />
+
+        <Button
+            android:id="@+id/button_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_about" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
