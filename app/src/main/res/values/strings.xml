@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">IMEI Generator</string>
+    <string name="btn_generate">Generate</string>
+    <string name="btn_clip">Copy to clipboard</string>
+    <string name="toast_cliped">Copied to clipboard</string>
+    <string name="btn_about">About</string>
+    <string name="btn_gotit">Got it</string>
+    <string name="btn_github">Github Repo</string>
+    <string name="txt_about"><![CDATA[<p>IMEI Generator v0.1</p>
+<p>Copyright © 2018 ReimuNotMoe</p>
+<br>
+<p>License: GPLv3</p>]]></string>
+</resources>
